@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<html lang="EN">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive navigation</title>
+	<link rel="stylesheet" href="css/nav.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Website Header</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<div class="handle">
+			Menu
+		</div>
+	</nav>
+
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas perferendis, voluptatem quo maxime natus aut, culpa veniam quibusdam iusto suscipit quos velit excepturi nulla doloremque dolorem unde. Porro, nobis, maxime!</p>
+		<p>Alias sapiente aut maxime voluptatem accusamus, quidem debitis, impedit tempora fugit recusandae nam eligendi tenetur eius delectus sit, deserunt quae. Atque culpa eum deleniti similique inventore possimus nostrum, numquam alias!</p>
+		<p>Enim repellat, magnam, ad labore, vel cumque voluptate aliquam ipsa, voluptas sequi nulla beatae reiciendis necessitatibus. Nulla, ratione quisquam vero porro dicta impedit, labore eius iste, eligendi voluptates eveniet sit!</p>
+	</section>
+	<script>
+		$('.handle').on('click', function() {
+			$('nav ul').toggleClass('.showing');
+		});
+	</script>
+</body>
+</html>
